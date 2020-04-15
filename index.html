@@ -55,8 +55,10 @@ function verifyCaptcha() {
                                     <div class="col-md-6 form-group">
                                     
                                     <div class="col-12 form-group">
-                                          <div class="g-recaptcha" data-sitekey="6LdK0ukUAAAAAGqilqivantSr1dOBfkJpNjdBofx"
-
+                                          <div class="g-recaptcha" data-sitekey="6LdK0ukUAAAAAGqilqivantSr1dOBfkJpNjdBofx" data-callback="verifyCaptcha"></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <input name="submit" type="submit" class="btn btn-success" value="Verify">
                                     </div>
                                 </div>
                                 <!-- end form element -->
